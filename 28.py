@@ -12,8 +12,8 @@ if n==3:
     name=['A','B','C','D']
     b=input("enter name")
     if b in name:
-        input("enter edited name")
-        name[b]=b
+        c=input("enter edited name")
+        name[b]=c
     print(b)
 
 
