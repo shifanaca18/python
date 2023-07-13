@@ -28,3 +28,18 @@ if a==3:
         file.write(st)
     else:
         print("data not found")
+if a==4:
+    e=input("enter a name")
+    file=open("shifana.txt","r")
+    edit=file.read()
+    li=list(edit.split("\n"))
+    if e in li:
+        name=input("enter edited name")
+        li[li.index(e)]=name
+        st='\n'.join(map(str,li))
+        file=open("shifana.txt","w")
+        file.write(st)
+        print(name," writing successfully")
+    else:
+        print("not found")
+
