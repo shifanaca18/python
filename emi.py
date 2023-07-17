@@ -15,7 +15,7 @@ def emi():
     f=c+(e*d)
     g=f/(d*12)
     print("emi",g)
-
+    
 add()
 intrest()
 emi()
