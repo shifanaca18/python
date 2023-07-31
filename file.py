@@ -1,4 +1,4 @@
-a=int(input("Enter a number"))
+a=int(input("Enter a number (1, Insert, 2 Show, 3 Delete, 4 Update)"))
 if a==1:
     for i in range(1):
         b=input("Enter a name")
